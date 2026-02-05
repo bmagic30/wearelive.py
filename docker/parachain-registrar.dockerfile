@@ -1,4 +1,4 @@
-FROM node:latest AS pjs
+FROM node:25.6.0-bookworm AS pjs
 
 # It would be great to depend on a more stable tag, but we need some
 # as-yet-unreleased features.
